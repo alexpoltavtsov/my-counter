@@ -1,0 +1,60 @@
+body {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.counter {
+    width: 22px;
+    height: 44px;
+    margin: 126px auto 36px;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
+
+button {
+    width: 173px;
+    height: 44px;   
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    display: block;
+    width: 500px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-start {
+    margin: 0 auto 36px;
+    background: #4191FF;
+}
+
+.btn-start:hover {
+    color: #FFFFFF;
+    background: #4191FF;
+    opacity: 70%;
+}
+
+.btn-reset {
+    margin: 0 auto;
+    background: #D45366;
+}
+
+.btn-reset:hover {
+    color: #FFFFFF;
+    background: #D45366;
+    opacity: 70%;
+}
+
+
+
+
+@media (max-width: 550px){
+
+    button{
+        width: 100%;
+    }
+}
