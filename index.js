@@ -1,5 +1,5 @@
-let btnStart = document.querySelector('.btn-start');
-let btnReset = document.querySelector('.btn-reset');
+let btnStart = document.querySelector('.js-btn-start');
+let btnReset = document.querySelector('.js-btn-reset');
 let counterText = document.querySelector('.counter');
 
 let counter = 0;
